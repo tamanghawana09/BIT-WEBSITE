@@ -10,7 +10,6 @@ body {
     font-family: var(--font);
     background: linear-gradient(to left, #041067,#5E17C6);
 }
-/* Nav bar section */
 .navbar {
     background-color: transparent;
     text-align: right;
@@ -22,7 +21,6 @@ body {
 .logo img{
     width: 70px;
     height: 40px;
-    border:none;
 }
 .navbar ul {
     list-style: none;
@@ -61,44 +59,35 @@ body {
 .content a:hover {
     background-color: black;
 }
-/* Main section */
-.main img{
-    margin-top: 50px;
-    margin-right: 120px;
-    width: 400px;
-    height: 400px;
-    float:right
-}
-.main .main-text{
-    margin-top: 50px;
-    margin-left: 60px;
-    font-size: 38px;
+#introduction{
+    background-color:#5E17C6;
     color: var(--font-color);
-    font-family: var(--font);   
-}
-.main .main-container{
-    margin-left:100px;
-
-}
-button{
-    padding: 12px 22px;
-    margin-top: 75px;
-    margin-left: 70px;
-    border-radius: 25px;
-    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
     font-family: var(--font);
-    transition: all 0.2s ease;
-    border:none;
 }
-button:active{
-    transform:scale(0.96);
+.intro-img{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color:white;
+    border-radius: 20px;
+    overflow: hidden;
 }
-#b1{
-    background-color: #F083FC;
-    color: white;
+.intro-img img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+ 
 }
-#b2{
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
+.intro-img p{
+    padding: 5px;
+    margin: 10px;
+    font-size: 18px;
+    
 }
