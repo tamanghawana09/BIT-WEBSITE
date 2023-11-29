@@ -69,7 +69,7 @@ body {
     font-size: 20px;
     font-family: var(--font);
 }
-.intro-img{
+.intro-content{
     display: block;
     width: 90%;
     height: auto;
@@ -77,15 +77,16 @@ body {
     background-color:white;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-.intro-img img{
+.intro-content img{
     width: 200px;
     float: left;
     margin-right: 20px;
     padding: 10px;
  
 }
-.intro-img p{
+.intro-content p{
     padding: 5px;
     margin: 10px;
     font-size: 18px;
