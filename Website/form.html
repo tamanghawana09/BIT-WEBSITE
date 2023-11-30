@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kist-BIT</title>
+    <link rel="shortcut icon" href="assets/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+<script src="form.js"></script>
+
+</head>
+<body>
+    <div class="intro-container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/icon.jpg" alt="Logo-icon">
+            </div>
+           <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About</a>
+                <div class="content">
+                    <a href="introduction.html">Introduction</a>
+                    <a href="messagepri.html">Message from principal</a>
+                    <a href="messageco.html">Message from co-ordinator</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Programs</a>
+                <div class="content">
+                    <a href="bit.html">BIT</a>
+                    <a href="mit.html">MIT</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </nav>
+        <main class="form-main">
+            <div id="form">
+                <h4>Admission Form</h4>
+            </div>
+            <div class="form">
+                <div class="form-content">
+                        <form>
+                            <h3>Submit the following form.</h3>
+                            <label for="course">Course : </label>
+                            <select name="course" id="course" required>
+                                <option selected hidden></option>
+                                <option value="Bachelor's in Information Technology">Bachelor's in Information Technology (BIT)</option>
+                                <option value="Master's in Information Technology">Master's in Information Technology (MIT)</option>
+                            </select><br>
+                            <label for="fname">First Name : </label>
+                            <input type="text" id="fname" required><br>
+                            <label for="lname">Last Name : </label>
+                            <input type="text" id="lname" required><br>
+                            <label for="email">Email Address : </label>
+                            <input type="email" id="email" required><br>
+                            <label for="number">Phone No: </label>
+                            <input type="text" id="number" required><br>
+                            <label for="birthdate">Date of Birth:</label>
+                            <input type="date" id="birthdate" name="birthdate" required><br>
+                            <label for="marks-see">Enter your marks of SEE (GPA / %) : </label>
+                            <input type="text" id="marks-see" required><br>
+                            <label for="marks-plus2"> Enter your marks of +2 (GPA / % ) : </label>
+                            <input type="text" id="marks-plus2" required><br>
+                            <label for="gender">Gender:</label>
+                            <input type="radio" name="gender" value="Male">
+                            <label for="male" name="gender">Male</label>
+                            <input type="radio" name="gender" value="Female">
+                            <label for="female" name="gender">Female</label>
+                            <input type="radio" name="gender" value="Others">
+                            <label for="others" name="gender">Others</label><br>
+                            <div class="button" onclick="validate()">
+                                <button>Submit</button>
+                            </div>
+                        </form>
+                </div>
+                
+            </div>
+        </main>
+    </div>
+</body>
+</html>
